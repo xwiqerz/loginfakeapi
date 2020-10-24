@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>yaaay</title>
+    <!-- Include CSS File Here -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Include JS File Here -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h2>LOG IN</h2>
+        <form id="form_id" method="post" name="myform">
+          <label>Email :</label>
+          <input class="styleUserName" type="text" name="username" id="username" />
+          <label>Password :</label>
+          <input type="password" name="password" id="password" />
+          <input type="button" value="Login" id="submit" onclick="validate()" />
+        </form>
+        <span><b class="note"> <br /><b class="valid">Email : eve.holt@reqres.in<br />Password : cityslicka</b></b></span><br/>
+        <input type="button" value="Show users" class="showUsers" disabled="true" />
+        <ul class="ulList"></ul>
+        <img class="userImage">
+        <p class="userFullName"></p>
+        <p class="userEmail"></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

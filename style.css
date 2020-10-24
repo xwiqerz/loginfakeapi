@@ -1,0 +1,16 @@
+/*.hide {
+  display: none;
+}
+*/
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+  background-color: #eee;
+}
+
+.container {
+  display: grid;
+}
